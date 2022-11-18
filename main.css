@@ -1,0 +1,392 @@
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 1595px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header {
+    padding: 40px 105px;
+    text-align: start;
+}
+
+.header ul {
+    list-style: none;
+    float: right;
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 0 20px;
+    color: #1F1534;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.main-title {
+    display: inline-block;
+    width: 360px;
+    text-align: start;
+    vertical-align: middle;
+}
+
+.main img {
+    vertical-align: middle;
+}
+
+.main-title h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.main-title p {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 32px;
+    color: #7D7987;
+}
+
+.main-title button {
+    background: #458FF6;
+    border-radius: 55px;
+    padding: 13px 30px;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cards-title h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.cards-title p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+
+}
+
+.cards-title hr {
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.cards-title {
+    padding: 0 150px;
+    margin: 160px 0 80px;
+}
+
+.cards {
+    text-align: -webkit-center;
+}
+
+.button {
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    background: transparent;
+    display: block;
+    padding: 10px 50px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #458FF6;
+}
+
+.cards .card {
+
+    padding: 60px 40px 50px 40px;
+    text-align: start;
+    box-shadow: 10px 10px 20px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.card h3 {
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+}
+
+.card p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    width: 260px;
+    color: #7D7987;
+}
+
+.providers {
+    padding: 220px 0 290px;
+
+}
+
+.providers-title {
+    width: 450px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: start;
+    margin: 115px 70px;
+}
+
+.providers-title h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.providers p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.providers hr {
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.providers-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 115px 70px;
+}
+
+.customer {
+    color: #FFFFFF;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    padding: 64px 118px 89px;
+    text-align: center;
+    width: 1120px;
+    margin: 0 auto 45px;
+}
+
+.customer-title {
+    display: inline-block;
+    width: 420px;
+    text-align: start;
+    margin-left: 110px;
+    vertical-align: middle;
+}
+
+.user {
+    display: inline-block;
+    text-align: start;
+    vertical-align: middle;
+}
+
+.user-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.customer h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    width: 522px;
+    display: inline-block;
+}
+
+.customer hr {
+    width: 56px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-bottom: 70px;
+
+}
+
+.user h2 {
+    width: 184px;
+    font-size: 22px;
+    line-height: 48px;
+    margin: 0;
+}
+
+.user p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0;
+}
+
+.customer-title p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.user img {
+    border-radius: 50%;
+    border: 4px solid white;
+    vertical-align: middle;
+
+}
+
+.next {
+    margin-bottom: 230px;
+}
+
+.active {
+    opacity: 1 !important;
+    background: #5B9BF3;
+}
+
+.next ul {
+    margin: 0 90px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.next img {
+    vertical-align: middle;
+}
+
+.next ul li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5B9BF3;
+    opacity: 0.3;
+    display: inline-block;
+    margin: 0 9px;
+}
+
+.latest {
+    margin-bottom: 200px;
+}
+
+.latest hr {
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+    margin: 26px 0 70px;
+    display: inline-block;
+}
+
+.latest li {
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    width: 350px;
+    text-align: start;
+
+}
+
+.latest ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.latest li img {
+    border-radius: 20px 20px 0 0;
+}
+
+.latest li a img {
+    width: 14px;
+}
+
+.latest button {
+    display: inline-block !important;
+}
+
+.latest-card {
+    padding: 20px 50px 35px 33px;
+}
+
+.latest-card h2 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.latest-card p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.latest-card a {
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+    text-decoration: none;
+}
+
+footer{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    display: flex;
+    padding: 110px 0 110px 190px;
+    color: white;
+    gap: 100px;
+}
+.logo{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: inline-block;
+
+}
+.logo img{
+    margin-top: 11px;
+}
+.footer-title{
+    width: 390px;
+    text-align: start;
+}
+.footer-title h2{
+    display: inline-block;
+    font-size: 24px;
+line-height: 30px;
+}
+.footer-title p{
+    font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+}
+.footer-title span{
+    font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+}
+.footer-list ul{
+
+    list-style: none;
+    line-height: 35px;
+    text-align: start;
+    padding: 0;
+}
